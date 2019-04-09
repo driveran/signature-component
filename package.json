@@ -1,0 +1,19 @@
+{
+  "name": "signature-component",
+  "version": "1.0.0",
+  "description": "Online signature web component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driveran/signature-component.git"
+  },
+  "author": "David Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driveran/signature-component/issues"
+  },
+  "homepage": "https://github.com/driveran/signature-component#readme"
+}
