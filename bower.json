@@ -1,0 +1,31 @@
+{
+  "name": "signature-component",
+  "description": "Online signature web component",
+  "main": "signature-component.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "paper-dialog": "PolymerElements/paper-dialog#2.1.1",
+    "paper-dialog-behavior": "PolymerElements/paper-dialog-behavior#2.2.2",
+    "neon-animation": "PolymerElements/neon-animation#2.2.1"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  },
+  "homepage": "https://github.com/driveran/signature-component",
+  "authors": [
+    "David Rivera <driveran2210@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

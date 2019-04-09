@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/driveran/signature-component/issues"
   },
-  "homepage": "https://github.com/driveran/signature-component#readme"
+  "homepage": "https://github.com/driveran/signature-component#readme",
+  "dependencies": {
+    "polymer-cli": "^1.9.8"
+  }
 }

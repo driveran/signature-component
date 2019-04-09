@@ -1,0 +1,45 @@
+<link rel="import" href="/bower_components/polymer/polymer-element.html">
+<link rel="import" href="/bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="/bower_components/paper-dialog-behavior/paper-dialog-behavior.html">
+
+<link rel="import" href="/bower_components/neon-animation/animations/scale-up-animation.html">
+<link rel="import" href="/bower_components/neon-animation/animations/fade-out-animation.html">
+
+<dom-module id="signature-component">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <input type="button" value="Open me!" on-click="_showCanvas">
+
+
+    <paper-dialog modal role="alertdialog" id='signatureDialog'>
+      <h2>Dialog Title</h2>
+        <canvas style="width:70vw; height:80vh; border: 1px solid black;">OK!</canvas>
+      <div class="buttons">
+        <paper-button onclick="">Aceptar </paper-button>
+        <paper-button dialog-dismiss>Cancelar </paper-button>
+        <paper-button dialog-confirm autofocus>Guardar</paper-button>
+      </div>
+    </paper-dialog>
+  </template>
+
+  <script>
+    class SignatureComponent extends Polymer.Element {
+      static get is() {
+        return 'signature-component'
+      }
+      static get properties() {
+        return {}
+      }
+      _showCanvas() {
+        console.log('showing canvas...')
+        this.$.signatureDialog.toggle()
+      }
+    }
+
+    window.customElements.define(SignatureComponent.is, SignatureComponent)
+  </script>
+</dom-module>
